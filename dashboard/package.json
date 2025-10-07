@@ -1,0 +1,54 @@
+{
+  "name": "marin-pest-control-dashboard",
+  "version": "2.0.0",
+  "description": "Complete Marin Pest Control Dashboard with QuickBooks, Google Calendar, and AI integrations",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "npm run build:backend && npm run build:frontend",
+    "build:backend": "cd backend && npm run build",
+    "build:frontend": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "test:webhook": "cd backend && npm run test:webhook",
+    "pm2:start": "cd backend && npm run pm2:start",
+    "pm2:stop": "cd backend && npm run pm2:stop",
+    "pm2:restart": "cd backend && npm run pm2:restart",
+    "pm2:status": "cd backend && npm run pm2:status",
+    "pm2:logs": "cd backend && npm run pm2:logs"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.18.1",
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sonni4154/marin-pest-control-dashboard.git"
+  },
+  "keywords": [
+    "pest-control",
+    "quickbooks",
+    "dashboard",
+    "react",
+    "nodejs",
+    "google-calendar",
+    "ai-integration"
+  ],
+  "author": "Spencer Reiser — Marin Pest Control",
+  "license": "MIT",
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
+    "ws": "^8.18.3"
+  }
+}

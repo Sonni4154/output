@@ -1,0 +1,81 @@
+# Copy this to backend/.env and fill in your QuickBooks credentials
+
+# ===========================================
+# DATABASE
+# ===========================================
+DATABASE_URL=postgresql://neondb_owner:npg_HjVGMveC67BO@ep-holy-scene-afwzz2d6-pooler.c-2.us-west-2.aws.neon.tech/neondb?sslmode=require
+
+# ===========================================
+# STACK AUTH (JWT Authentication)
+# ===========================================
+STACK_AUTH_URL=https://api.stack-auth.com
+STACK_PROJECT_ID=5fb1ffdb-d2a3-4a10-8824-7cfd62ab0f06
+STACK_SECRET_SERVER_KEY=ssk_ze312w133kthnbmdwfv6w1vbbsjew1ftpm5nwr9vxp1d8
+STACK_AUTH_AUDIENCE=https://api.stack-auth.com/api/v1/projects/5fb1ffdb-d2a3-4a10-8824-7cfd62ab0f06
+
+# ===========================================
+# QUICKBOOKS ONLINE INTEGRATION
+# ===========================================
+# Get these from your QuickBooks Developer Dashboard
+QBO_CLIENT_ID=your_qbo_client_id_here
+QBO_CLIENT_SECRET=your_qbo_client_secret_here
+QBO_REDIRECT_URI=https://your-domain.com/auth/qbo/callback
+QBO_REALM_ID=your_company_realm_id_here
+QBO_ENV=sandbox
+QBO_WEBHOOK_URL=https://your-domain.com/api/webhook/quickbooks
+QBO_WEBHOOK_VERIFIER_TOKEN=your_webhook_verifier_token_here
+QBO_APP_LAUNCH_URL=https://your-domain.com/auth/qbo/launch
+QBO_APP_DISCONNECT_URL=https://your-domain.com/auth/qbo/disconnect
+
+# ===========================================
+# LLM API KEYS
+# ===========================================
+OPENAI_API_KEY=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
+GOOGLE_AI_API_KEY=AIzaSyDEPEAwHn4l3B5OtQRcmgdOYyvL5vr7QOc
+MISTRAL_API_KEY=jlo9qLrA618BVucLY9qV9eKJX0Y1AHXn
+
+# ===========================================
+# DASHBOARD INTEGRATION API KEYS
+# ===========================================
+JOTFORM_API_KEY=0b0a61388bf72f9d6fad871687399707
+JIBBLE_API_KEY=24b16520-fc0b-47a5-8665-98215e29b867
+
+# ===========================================
+# GOOGLE INTEGRATION
+# ===========================================
+GOOGLE_CLIENT_ID=32614029755-bh0b4bg1vd7a1unlu5ma7rvn38efqnr5.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=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
+
+# ===========================================
+# GOOGLE CALENDAR INTEGRATION
+# ===========================================
+GOOGLE_CALENDAR_INSECT_CONTROL_ID=57d4687457176ca4e4b211910e7a69c19369d08081871d9f8ab54d234114c991@group.calendar.google.com
+GOOGLE_CALENDAR_RODENT_CONTROL_ID=3fc1d11fe5330c3e1c4693570419393a1d74036ef1b4cb866dd337f8c8cc6c8e@group.calendar.google.com
+GOOGLE_CALENDAR_TERMITES_ID=64a3c24910c43703e539ab1e9ac41df6591995c63c1e4f208f76575a50149610@group.calendar.google.com
+GOOGLE_CALENDAR_TRAP_CHECK_ID=529c43e689235b82258319c30e7449e97c8788cb01cd924e0f4d0b4c34305cdb@group.calendar.google.com
+GOOGLE_CALENDAR_INSPECTIONS_ID=c81f827b8eeec1453d1f3d90c7bca859a1d342953680c4a0448e6b0b96b8bb4a@group.calendar.google.com
+GOOGLE_CALENDAR_TRADEWORK_ID=97180df5c9275973f1c51e234ec36de62c401860313b0b734704f070e5acf411@group.calendar.google.com
+GOOGLE_CALENDAR_INTEGRATIONS_ID=spencermreiser@gmail.com
+GOOGLE_CALENDAR_EMPLOYEE_NOTES_ID=marinpestcontrol@gmail.com
+
+# ===========================================
+# HUBSPOT INTEGRATION
+# ===========================================
+HUBSPOT_ACCESS_TOKEN=f7badacf-02e1-4153-9efc-41d048f8623e
+
+# ===========================================
+# SERVER CONFIGURATION
+# ===========================================
+PORT=5000
+NODE_ENV=development
+CORS_ORIGIN=http://localhost:5173
+LOG_LEVEL=info
+RATE_LIMIT_WINDOW_MS=900000
+RATE_LIMIT_MAX_REQUESTS=100
+SESSION_SECRET=your_session_secret_here
+
+# ===========================================
+# DEVELOPMENT SETTINGS
+# ===========================================
+SKIP_AUTH=true
+MOCK_QBO_DATA=true

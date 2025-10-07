@@ -1,0 +1,1012 @@
+2025-10-07 03:51:45 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 03:51:45 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 03:51:45 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 03:51:45 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 03:51:45 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 03:51:45 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:145:9)
+2025-10-07 03:51:45 -04:00:     at file:///opt/dashboard/backend/src/index.ts:176:1
+2025-10-07 03:51:45 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 03:51:45 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 03:51:45 -04:00:   code: 'EADDRINUSE',
+2025-10-07 03:51:45 -04:00:   errno: -98,
+2025-10-07 03:51:45 -04:00:   syscall: 'listen',
+2025-10-07 03:51:45 -04:00:   address: '::',
+2025-10-07 03:51:45 -04:00:   port: 5000
+2025-10-07 03:51:45 -04:00: }
+2025-10-07 03:51:50 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 03:51:50 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 03:51:50 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 03:51:50 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 03:51:50 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 03:51:50 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:145:9)
+2025-10-07 03:51:50 -04:00:     at file:///opt/dashboard/backend/src/index.ts:176:1
+2025-10-07 03:51:50 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 03:51:50 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 03:51:50 -04:00:   code: 'EADDRINUSE',
+2025-10-07 03:51:50 -04:00:   errno: -98,
+2025-10-07 03:51:50 -04:00:   syscall: 'listen',
+2025-10-07 03:51:50 -04:00:   address: '::',
+2025-10-07 03:51:50 -04:00:   port: 5000
+2025-10-07 03:51:50 -04:00: }
+2025-10-07 03:51:56 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 03:51:56 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 03:51:56 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 03:51:56 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 03:51:56 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 03:51:56 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:145:9)
+2025-10-07 03:51:56 -04:00:     at file:///opt/dashboard/backend/src/index.ts:176:1
+2025-10-07 03:51:56 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 03:51:56 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 03:51:56 -04:00:   code: 'EADDRINUSE',
+2025-10-07 03:51:56 -04:00:   errno: -98,
+2025-10-07 03:51:56 -04:00:   syscall: 'listen',
+2025-10-07 03:51:56 -04:00:   address: '::',
+2025-10-07 03:51:56 -04:00:   port: 5000
+2025-10-07 03:51:56 -04:00: }
+2025-10-07 03:52:01 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 03:52:01 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 03:52:01 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 03:52:01 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 03:52:01 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 03:52:01 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:145:9)
+2025-10-07 03:52:01 -04:00:     at file:///opt/dashboard/backend/src/index.ts:176:1
+2025-10-07 03:52:01 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 03:52:01 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 03:52:01 -04:00:   code: 'EADDRINUSE',
+2025-10-07 03:52:01 -04:00:   errno: -98,
+2025-10-07 03:52:01 -04:00:   syscall: 'listen',
+2025-10-07 03:52:01 -04:00:   address: '::',
+2025-10-07 03:52:01 -04:00:   port: 5000
+2025-10-07 03:52:01 -04:00: }
+2025-10-07 03:52:06 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 03:52:06 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 03:52:06 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 03:52:06 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 03:52:06 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 03:52:06 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:145:9)
+2025-10-07 03:52:06 -04:00:     at file:///opt/dashboard/backend/src/index.ts:176:1
+2025-10-07 03:52:06 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 03:52:06 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 03:52:06 -04:00:   code: 'EADDRINUSE',
+2025-10-07 03:52:06 -04:00:   errno: -98,
+2025-10-07 03:52:06 -04:00:   syscall: 'listen',
+2025-10-07 03:52:06 -04:00:   address: '::',
+2025-10-07 03:52:06 -04:00:   port: 5000
+2025-10-07 03:52:06 -04:00: }
+2025-10-07 03:52:11 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 03:52:11 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 03:52:11 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 03:52:11 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 03:52:11 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 03:52:11 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:145:9)
+2025-10-07 03:52:11 -04:00:     at file:///opt/dashboard/backend/src/index.ts:176:1
+2025-10-07 03:52:11 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 03:52:11 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 03:52:11 -04:00:   code: 'EADDRINUSE',
+2025-10-07 03:52:11 -04:00:   errno: -98,
+2025-10-07 03:52:11 -04:00:   syscall: 'listen',
+2025-10-07 03:52:11 -04:00:   address: '::',
+2025-10-07 03:52:11 -04:00:   port: 5000
+2025-10-07 03:52:11 -04:00: }
+2025-10-07 03:52:17 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 03:52:17 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 03:52:17 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 03:52:17 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 03:52:17 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 03:52:17 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:145:9)
+2025-10-07 03:52:17 -04:00:     at file:///opt/dashboard/backend/src/index.ts:176:1
+2025-10-07 03:52:17 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 03:52:17 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 03:52:17 -04:00:   code: 'EADDRINUSE',
+2025-10-07 03:52:17 -04:00:   errno: -98,
+2025-10-07 03:52:17 -04:00:   syscall: 'listen',
+2025-10-07 03:52:17 -04:00:   address: '::',
+2025-10-07 03:52:17 -04:00:   port: 5000
+2025-10-07 03:52:17 -04:00: }
+2025-10-07 03:52:22 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 03:52:22 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 03:52:22 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 03:52:22 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 03:52:22 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 03:52:22 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:145:9)
+2025-10-07 03:52:22 -04:00:     at file:///opt/dashboard/backend/src/index.ts:176:1
+2025-10-07 03:52:22 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 03:52:22 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 03:52:22 -04:00:   code: 'EADDRINUSE',
+2025-10-07 03:52:22 -04:00:   errno: -98,
+2025-10-07 03:52:22 -04:00:   syscall: 'listen',
+2025-10-07 03:52:22 -04:00:   address: '::',
+2025-10-07 03:52:22 -04:00:   port: 5000
+2025-10-07 03:52:22 -04:00: }
+2025-10-07 03:52:28 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 03:52:28 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 03:52:28 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 03:52:28 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 03:52:28 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 03:52:28 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:145:9)
+2025-10-07 03:52:28 -04:00:     at file:///opt/dashboard/backend/src/index.ts:176:1
+2025-10-07 03:52:28 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 03:52:28 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 03:52:28 -04:00:   code: 'EADDRINUSE',
+2025-10-07 03:52:28 -04:00:   errno: -98,
+2025-10-07 03:52:28 -04:00:   syscall: 'listen',
+2025-10-07 03:52:28 -04:00:   address: '::',
+2025-10-07 03:52:28 -04:00:   port: 5000
+2025-10-07 03:52:28 -04:00: }
+2025-10-07 03:52:33 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 03:52:33 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 03:52:33 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 03:52:33 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 03:52:33 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 03:52:33 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:145:9)
+2025-10-07 03:52:33 -04:00:     at file:///opt/dashboard/backend/src/index.ts:176:1
+2025-10-07 03:52:33 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 03:52:33 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 03:52:33 -04:00:   code: 'EADDRINUSE',
+2025-10-07 03:52:33 -04:00:   errno: -98,
+2025-10-07 03:52:33 -04:00:   syscall: 'listen',
+2025-10-07 03:52:33 -04:00:   address: '::',
+2025-10-07 03:52:33 -04:00:   port: 5000
+2025-10-07 03:52:33 -04:00: }
+2025-10-07 04:01:13 -04:00: Error: DATABASE_URL environment variable is required
+2025-10-07 04:01:13 -04:00:     at file:///opt/dashboard/backend/src/db/index.ts:9:9
+2025-10-07 04:01:13 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:01:13 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+2025-10-07 04:01:20 -04:00: Error: DATABASE_URL environment variable is required
+2025-10-07 04:01:20 -04:00:     at file:///opt/dashboard/backend/src/db/index.ts:9:9
+2025-10-07 04:01:20 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:01:20 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+2025-10-07 04:01:27 -04:00: Error: DATABASE_URL environment variable is required
+2025-10-07 04:01:27 -04:00:     at file:///opt/dashboard/backend/src/db/index.ts:9:9
+2025-10-07 04:01:27 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:01:27 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+2025-10-07 04:01:34 -04:00: Error: DATABASE_URL environment variable is required
+2025-10-07 04:01:34 -04:00:     at file:///opt/dashboard/backend/src/db/index.ts:9:9
+2025-10-07 04:01:34 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:01:34 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+2025-10-07 04:01:42 -04:00: Error: DATABASE_URL environment variable is required
+2025-10-07 04:01:42 -04:00:     at file:///opt/dashboard/backend/src/db/index.ts:9:9
+2025-10-07 04:01:42 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:01:42 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+2025-10-07 04:01:49 -04:00: Error: DATABASE_URL environment variable is required
+2025-10-07 04:01:49 -04:00:     at file:///opt/dashboard/backend/src/db/index.ts:9:9
+2025-10-07 04:01:49 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:01:49 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+2025-10-07 04:01:56 -04:00: Error: DATABASE_URL environment variable is required
+2025-10-07 04:01:56 -04:00:     at file:///opt/dashboard/backend/src/db/index.ts:9:9
+2025-10-07 04:01:56 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:01:56 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+2025-10-07 04:02:03 -04:00: Error: DATABASE_URL environment variable is required
+2025-10-07 04:02:03 -04:00:     at file:///opt/dashboard/backend/src/db/index.ts:9:9
+2025-10-07 04:02:03 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:02:03 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+2025-10-07 04:02:10 -04:00: Error: DATABASE_URL environment variable is required
+2025-10-07 04:02:10 -04:00:     at file:///opt/dashboard/backend/src/db/index.ts:9:9
+2025-10-07 04:02:10 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:02:10 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+2025-10-07 04:02:18 -04:00: Error: DATABASE_URL environment variable is required
+2025-10-07 04:02:18 -04:00:     at file:///opt/dashboard/backend/src/db/index.ts:9:9
+2025-10-07 04:02:18 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:02:18 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+2025-10-07 04:11:33 -04:00: Error: Cannot find module '/opt/dashboard/backend/dist/db/utils/logger.js' imported from /opt/dashboard/backend/dist/db/index.js
+2025-10-07 04:11:33 -04:00:     at finalizeResolution (node:internal/modules/esm/resolve:283:11)
+2025-10-07 04:11:33 -04:00:     at moduleResolve (node:internal/modules/esm/resolve:952:10)
+2025-10-07 04:11:33 -04:00:     at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+2025-10-07 04:11:33 -04:00:     at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:708:12)
+2025-10-07 04:11:33 -04:00:     at ModuleLoader.#cachedDefaultResolve (node:internal/modules/esm/loader:657:25)
+2025-10-07 04:11:33 -04:00:     at ModuleLoader.resolve (node:internal/modules/esm/loader:640:38)
+2025-10-07 04:11:33 -04:00:     at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:264:38)
+2025-10-07 04:11:33 -04:00:     at ModuleJob._link (node:internal/modules/esm/module_job:168:49) {
+2025-10-07 04:11:33 -04:00:   code: 'ERR_MODULE_NOT_FOUND',
+2025-10-07 04:11:33 -04:00:   url: 'file:///opt/dashboard/backend/dist/db/utils/logger.js'
+2025-10-07 04:11:33 -04:00: }
+2025-10-07 04:16:37 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:16:37 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:16:37 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:16:37 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:16:37 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:16:37 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:16:37 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:16:37 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:16:37 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:16:37 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:16:37 -04:00:   errno: -98,
+2025-10-07 04:16:37 -04:00:   syscall: 'listen',
+2025-10-07 04:16:37 -04:00:   address: '::',
+2025-10-07 04:16:37 -04:00:   port: 5000
+2025-10-07 04:16:37 -04:00: }
+2025-10-07 04:16:43 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:16:43 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:16:43 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:16:43 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:16:43 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:16:43 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:16:43 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:16:43 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:16:43 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:16:43 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:16:43 -04:00:   errno: -98,
+2025-10-07 04:16:43 -04:00:   syscall: 'listen',
+2025-10-07 04:16:43 -04:00:   address: '::',
+2025-10-07 04:16:43 -04:00:   port: 5000
+2025-10-07 04:16:43 -04:00: }
+2025-10-07 04:16:48 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:16:48 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:16:48 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:16:48 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:16:48 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:16:48 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:16:48 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:16:48 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:16:48 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:16:48 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:16:48 -04:00:   errno: -98,
+2025-10-07 04:16:48 -04:00:   syscall: 'listen',
+2025-10-07 04:16:48 -04:00:   address: '::',
+2025-10-07 04:16:48 -04:00:   port: 5000
+2025-10-07 04:16:48 -04:00: }
+2025-10-07 04:16:53 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:16:53 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:16:53 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:16:53 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:16:53 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:16:53 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:16:53 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:16:53 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:16:53 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:16:53 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:16:53 -04:00:   errno: -98,
+2025-10-07 04:16:53 -04:00:   syscall: 'listen',
+2025-10-07 04:16:53 -04:00:   address: '::',
+2025-10-07 04:16:53 -04:00:   port: 5000
+2025-10-07 04:16:53 -04:00: }
+2025-10-07 04:16:58 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:16:58 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:16:58 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:16:58 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:16:58 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:16:58 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:16:58 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:16:58 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:16:58 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:16:58 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:16:58 -04:00:   errno: -98,
+2025-10-07 04:16:58 -04:00:   syscall: 'listen',
+2025-10-07 04:16:58 -04:00:   address: '::',
+2025-10-07 04:16:58 -04:00:   port: 5000
+2025-10-07 04:16:58 -04:00: }
+2025-10-07 04:17:04 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:17:04 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:17:04 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:17:04 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:17:04 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:17:04 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:17:04 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:17:04 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:17:04 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:17:04 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:17:04 -04:00:   errno: -98,
+2025-10-07 04:17:04 -04:00:   syscall: 'listen',
+2025-10-07 04:17:04 -04:00:   address: '::',
+2025-10-07 04:17:04 -04:00:   port: 5000
+2025-10-07 04:17:04 -04:00: }
+2025-10-07 04:17:09 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:17:09 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:17:09 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:17:09 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:17:09 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:17:09 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:17:09 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:17:09 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:17:09 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:17:09 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:17:09 -04:00:   errno: -98,
+2025-10-07 04:17:09 -04:00:   syscall: 'listen',
+2025-10-07 04:17:09 -04:00:   address: '::',
+2025-10-07 04:17:09 -04:00:   port: 5000
+2025-10-07 04:17:09 -04:00: }
+2025-10-07 04:17:14 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:17:14 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:17:14 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:17:14 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:17:14 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:17:14 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:17:14 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:17:14 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:17:14 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:17:14 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:17:14 -04:00:   errno: -98,
+2025-10-07 04:17:14 -04:00:   syscall: 'listen',
+2025-10-07 04:17:14 -04:00:   address: '::',
+2025-10-07 04:17:14 -04:00:   port: 5000
+2025-10-07 04:17:14 -04:00: }
+2025-10-07 04:17:19 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:17:19 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:17:19 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:17:19 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:17:19 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:17:19 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:17:19 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:17:19 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:17:19 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:17:19 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:17:19 -04:00:   errno: -98,
+2025-10-07 04:17:19 -04:00:   syscall: 'listen',
+2025-10-07 04:17:19 -04:00:   address: '::',
+2025-10-07 04:17:19 -04:00:   port: 5000
+2025-10-07 04:17:19 -04:00: }
+2025-10-07 04:17:24 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:17:24 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:17:24 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:17:24 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:17:24 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:17:24 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:17:24 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:17:24 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:17:24 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:17:24 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:17:24 -04:00:   errno: -98,
+2025-10-07 04:17:24 -04:00:   syscall: 'listen',
+2025-10-07 04:17:24 -04:00:   address: '::',
+2025-10-07 04:17:24 -04:00:   port: 5000
+2025-10-07 04:17:24 -04:00: }
+2025-10-07 04:17:29 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:17:29 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:17:29 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:17:29 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:17:29 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:17:29 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:17:29 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:17:29 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:17:29 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:17:29 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:17:29 -04:00:   errno: -98,
+2025-10-07 04:17:29 -04:00:   syscall: 'listen',
+2025-10-07 04:17:29 -04:00:   address: '::',
+2025-10-07 04:17:29 -04:00:   port: 5000
+2025-10-07 04:17:29 -04:00: }
+2025-10-07 04:17:35 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:17:35 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:17:35 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:17:35 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:17:35 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:17:35 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:17:35 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:17:35 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:17:35 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:17:35 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:17:35 -04:00:   errno: -98,
+2025-10-07 04:17:35 -04:00:   syscall: 'listen',
+2025-10-07 04:17:35 -04:00:   address: '::',
+2025-10-07 04:17:35 -04:00:   port: 5000
+2025-10-07 04:17:35 -04:00: }
+2025-10-07 04:17:40 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:17:40 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:17:40 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:17:40 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:17:40 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:17:40 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:17:40 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:17:40 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:17:40 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:17:40 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:17:40 -04:00:   errno: -98,
+2025-10-07 04:17:40 -04:00:   syscall: 'listen',
+2025-10-07 04:17:40 -04:00:   address: '::',
+2025-10-07 04:17:40 -04:00:   port: 5000
+2025-10-07 04:17:40 -04:00: }
+2025-10-07 04:17:45 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:17:45 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:17:45 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:17:45 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:17:45 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:17:45 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:17:45 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:17:45 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:17:45 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:17:45 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:17:45 -04:00:   errno: -98,
+2025-10-07 04:17:45 -04:00:   syscall: 'listen',
+2025-10-07 04:17:45 -04:00:   address: '::',
+2025-10-07 04:17:45 -04:00:   port: 5000
+2025-10-07 04:17:45 -04:00: }
+2025-10-07 04:17:50 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:17:50 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:17:50 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:17:50 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:17:50 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:17:50 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:17:50 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:17:50 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:17:50 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:17:50 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:17:50 -04:00:   errno: -98,
+2025-10-07 04:17:50 -04:00:   syscall: 'listen',
+2025-10-07 04:17:50 -04:00:   address: '::',
+2025-10-07 04:17:50 -04:00:   port: 5000
+2025-10-07 04:17:50 -04:00: }
+2025-10-07 04:17:55 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:17:55 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:17:55 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:17:55 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:17:55 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:17:55 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:17:55 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:17:55 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:17:55 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:17:55 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:17:55 -04:00:   errno: -98,
+2025-10-07 04:17:55 -04:00:   syscall: 'listen',
+2025-10-07 04:17:55 -04:00:   address: '::',
+2025-10-07 04:17:55 -04:00:   port: 5000
+2025-10-07 04:17:55 -04:00: }
+2025-10-07 04:18:00 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:18:00 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:18:00 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:18:00 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:18:00 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:18:00 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:18:00 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:18:00 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:18:00 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:18:00 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:18:00 -04:00:   errno: -98,
+2025-10-07 04:18:00 -04:00:   syscall: 'listen',
+2025-10-07 04:18:00 -04:00:   address: '::',
+2025-10-07 04:18:00 -04:00:   port: 5000
+2025-10-07 04:18:00 -04:00: }
+2025-10-07 04:18:05 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:18:05 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:18:05 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:18:05 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:18:05 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:18:05 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:18:05 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:18:05 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:18:05 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:18:05 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:18:05 -04:00:   errno: -98,
+2025-10-07 04:18:05 -04:00:   syscall: 'listen',
+2025-10-07 04:18:05 -04:00:   address: '::',
+2025-10-07 04:18:05 -04:00:   port: 5000
+2025-10-07 04:18:05 -04:00: }
+2025-10-07 04:18:11 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:18:11 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:18:11 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:18:11 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:18:11 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:18:11 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:18:11 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:18:11 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:18:11 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:18:11 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:18:11 -04:00:   errno: -98,
+2025-10-07 04:18:11 -04:00:   syscall: 'listen',
+2025-10-07 04:18:11 -04:00:   address: '::',
+2025-10-07 04:18:11 -04:00:   port: 5000
+2025-10-07 04:18:11 -04:00: }
+2025-10-07 04:30:05 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:30:05 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:30:05 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:30:05 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:30:05 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:30:05 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:30:05 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:30:05 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:30:05 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:30:05 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:30:05 -04:00:   errno: -98,
+2025-10-07 04:30:05 -04:00:   syscall: 'listen',
+2025-10-07 04:30:05 -04:00:   address: '::',
+2025-10-07 04:30:05 -04:00:   port: 5000
+2025-10-07 04:30:05 -04:00: }
+2025-10-07 04:30:10 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:30:10 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:30:10 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:30:10 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:30:10 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:30:10 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:30:10 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:30:10 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:30:10 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:30:10 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:30:10 -04:00:   errno: -98,
+2025-10-07 04:30:10 -04:00:   syscall: 'listen',
+2025-10-07 04:30:10 -04:00:   address: '::',
+2025-10-07 04:30:10 -04:00:   port: 5000
+2025-10-07 04:30:10 -04:00: }
+2025-10-07 04:30:15 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:30:15 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:30:15 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:30:15 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:30:15 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:30:15 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:30:15 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:30:15 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:30:15 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:30:15 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:30:15 -04:00:   errno: -98,
+2025-10-07 04:30:15 -04:00:   syscall: 'listen',
+2025-10-07 04:30:15 -04:00:   address: '::',
+2025-10-07 04:30:15 -04:00:   port: 5000
+2025-10-07 04:30:15 -04:00: }
+2025-10-07 04:30:21 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:30:21 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:30:21 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:30:21 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:30:21 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:30:21 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:30:21 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:30:21 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:30:21 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:30:21 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:30:21 -04:00:   errno: -98,
+2025-10-07 04:30:21 -04:00:   syscall: 'listen',
+2025-10-07 04:30:21 -04:00:   address: '::',
+2025-10-07 04:30:21 -04:00:   port: 5000
+2025-10-07 04:30:21 -04:00: }
+2025-10-07 04:30:27 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:30:27 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:30:27 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:30:27 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:30:27 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:30:27 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:30:27 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:30:27 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:30:27 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:30:27 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:30:27 -04:00:   errno: -98,
+2025-10-07 04:30:27 -04:00:   syscall: 'listen',
+2025-10-07 04:30:27 -04:00:   address: '::',
+2025-10-07 04:30:27 -04:00:   port: 5000
+2025-10-07 04:30:27 -04:00: }
+2025-10-07 04:30:33 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:30:33 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:30:33 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:30:33 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:30:33 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:30:33 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:30:33 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:30:33 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:30:33 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:30:33 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:30:33 -04:00:   errno: -98,
+2025-10-07 04:30:33 -04:00:   syscall: 'listen',
+2025-10-07 04:30:33 -04:00:   address: '::',
+2025-10-07 04:30:33 -04:00:   port: 5000
+2025-10-07 04:30:33 -04:00: }
+2025-10-07 04:30:39 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:30:39 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:30:39 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:30:39 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:30:39 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:30:39 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:30:39 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:30:39 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:30:39 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:30:39 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:30:39 -04:00:   errno: -98,
+2025-10-07 04:30:39 -04:00:   syscall: 'listen',
+2025-10-07 04:30:39 -04:00:   address: '::',
+2025-10-07 04:30:39 -04:00:   port: 5000
+2025-10-07 04:30:39 -04:00: }
+2025-10-07 04:30:44 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:30:44 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:30:44 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:30:44 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:30:44 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:30:44 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:30:44 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:30:44 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:30:44 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:30:44 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:30:44 -04:00:   errno: -98,
+2025-10-07 04:30:44 -04:00:   syscall: 'listen',
+2025-10-07 04:30:44 -04:00:   address: '::',
+2025-10-07 04:30:44 -04:00:   port: 5000
+2025-10-07 04:30:44 -04:00: }
+2025-10-07 04:30:50 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:30:50 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:30:50 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:30:50 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:30:50 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:30:50 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:30:50 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:30:50 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:30:50 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:30:50 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:30:50 -04:00:   errno: -98,
+2025-10-07 04:30:50 -04:00:   syscall: 'listen',
+2025-10-07 04:30:50 -04:00:   address: '::',
+2025-10-07 04:30:50 -04:00:   port: 5000
+2025-10-07 04:30:50 -04:00: }
+2025-10-07 04:30:55 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:30:55 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:30:55 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:30:55 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:30:55 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:30:55 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:30:55 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:30:55 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:30:55 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:30:55 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:30:55 -04:00:   errno: -98,
+2025-10-07 04:30:55 -04:00:   syscall: 'listen',
+2025-10-07 04:30:55 -04:00:   address: '::',
+2025-10-07 04:30:55 -04:00:   port: 5000
+2025-10-07 04:30:55 -04:00: }
+2025-10-07 04:31:00 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:31:00 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:31:00 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:31:00 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:31:00 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:31:00 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:31:00 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:31:00 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:31:00 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:31:00 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:31:00 -04:00:   errno: -98,
+2025-10-07 04:31:00 -04:00:   syscall: 'listen',
+2025-10-07 04:31:00 -04:00:   address: '::',
+2025-10-07 04:31:00 -04:00:   port: 5000
+2025-10-07 04:31:00 -04:00: }
+2025-10-07 04:31:05 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:31:05 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:31:05 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:31:05 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:31:05 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:31:05 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:31:05 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:31:05 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:31:05 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:31:05 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:31:05 -04:00:   errno: -98,
+2025-10-07 04:31:05 -04:00:   syscall: 'listen',
+2025-10-07 04:31:05 -04:00:   address: '::',
+2025-10-07 04:31:05 -04:00:   port: 5000
+2025-10-07 04:31:05 -04:00: }
+2025-10-07 04:31:10 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:31:10 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:31:10 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:31:10 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:31:10 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:31:10 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:31:10 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:31:10 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:31:10 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:31:10 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:31:10 -04:00:   errno: -98,
+2025-10-07 04:31:10 -04:00:   syscall: 'listen',
+2025-10-07 04:31:10 -04:00:   address: '::',
+2025-10-07 04:31:10 -04:00:   port: 5000
+2025-10-07 04:31:10 -04:00: }
+2025-10-07 04:31:15 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:31:15 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:31:15 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:31:15 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:31:15 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:31:15 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:31:15 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:31:15 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:31:15 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:31:15 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:31:15 -04:00:   errno: -98,
+2025-10-07 04:31:15 -04:00:   syscall: 'listen',
+2025-10-07 04:31:15 -04:00:   address: '::',
+2025-10-07 04:31:15 -04:00:   port: 5000
+2025-10-07 04:31:15 -04:00: }
+2025-10-07 04:31:21 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:31:21 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:31:21 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:31:21 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:31:21 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:31:21 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:31:21 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:31:21 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:31:21 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:31:21 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:31:21 -04:00:   errno: -98,
+2025-10-07 04:31:21 -04:00:   syscall: 'listen',
+2025-10-07 04:31:21 -04:00:   address: '::',
+2025-10-07 04:31:21 -04:00:   port: 5000
+2025-10-07 04:31:21 -04:00: }
+2025-10-07 04:31:26 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:31:26 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:31:26 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:31:26 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:31:26 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:31:26 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:31:26 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:31:26 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:31:26 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:31:26 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:31:26 -04:00:   errno: -98,
+2025-10-07 04:31:26 -04:00:   syscall: 'listen',
+2025-10-07 04:31:26 -04:00:   address: '::',
+2025-10-07 04:31:26 -04:00:   port: 5000
+2025-10-07 04:31:26 -04:00: }
+2025-10-07 04:31:31 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:31:31 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:31:31 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:31:31 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:31:31 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:31:31 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:31:31 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:31:31 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:31:31 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:31:31 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:31:31 -04:00:   errno: -98,
+2025-10-07 04:31:31 -04:00:   syscall: 'listen',
+2025-10-07 04:31:31 -04:00:   address: '::',
+2025-10-07 04:31:31 -04:00:   port: 5000
+2025-10-07 04:31:31 -04:00: }
+2025-10-07 04:31:36 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:31:36 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:31:36 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:31:36 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:31:36 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:31:36 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:31:36 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:31:36 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:31:36 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:31:36 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:31:36 -04:00:   errno: -98,
+2025-10-07 04:31:36 -04:00:   syscall: 'listen',
+2025-10-07 04:31:36 -04:00:   address: '::',
+2025-10-07 04:31:36 -04:00:   port: 5000
+2025-10-07 04:31:36 -04:00: }
+2025-10-07 04:31:41 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:31:41 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:31:41 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:31:41 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:31:41 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:31:41 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:31:41 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:31:41 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:31:41 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:31:41 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:31:41 -04:00:   errno: -98,
+2025-10-07 04:31:41 -04:00:   syscall: 'listen',
+2025-10-07 04:31:41 -04:00:   address: '::',
+2025-10-07 04:31:41 -04:00:   port: 5000
+2025-10-07 04:31:41 -04:00: }
+2025-10-07 04:31:47 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:31:47 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:31:47 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:31:47 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:31:47 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:31:47 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:31:47 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:31:47 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:31:47 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:31:47 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:31:47 -04:00:   errno: -98,
+2025-10-07 04:31:47 -04:00:   syscall: 'listen',
+2025-10-07 04:31:47 -04:00:   address: '::',
+2025-10-07 04:31:47 -04:00:   port: 5000
+2025-10-07 04:31:47 -04:00: }
+2025-10-07 04:31:52 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:31:52 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:31:52 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:31:52 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:31:52 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:31:52 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:31:52 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:31:52 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:31:52 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:31:52 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:31:52 -04:00:   errno: -98,
+2025-10-07 04:31:52 -04:00:   syscall: 'listen',
+2025-10-07 04:31:52 -04:00:   address: '::',
+2025-10-07 04:31:52 -04:00:   port: 5000
+2025-10-07 04:31:52 -04:00: }
+2025-10-07 04:31:57 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:31:57 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:31:57 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:31:57 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:31:57 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:31:57 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:31:57 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:31:57 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:31:57 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:31:57 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:31:57 -04:00:   errno: -98,
+2025-10-07 04:31:57 -04:00:   syscall: 'listen',
+2025-10-07 04:31:57 -04:00:   address: '::',
+2025-10-07 04:31:57 -04:00:   port: 5000
+2025-10-07 04:31:57 -04:00: }
+2025-10-07 04:32:02 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:32:02 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:32:02 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:32:02 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:32:02 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:32:02 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:32:02 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:32:02 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:32:02 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:32:02 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:32:02 -04:00:   errno: -98,
+2025-10-07 04:32:02 -04:00:   syscall: 'listen',
+2025-10-07 04:32:02 -04:00:   address: '::',
+2025-10-07 04:32:02 -04:00:   port: 5000
+2025-10-07 04:32:02 -04:00: }
+2025-10-07 04:32:07 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:32:07 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:32:07 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:32:07 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:32:07 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:32:07 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:32:07 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:32:07 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:32:07 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:32:07 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:32:07 -04:00:   errno: -98,
+2025-10-07 04:32:07 -04:00:   syscall: 'listen',
+2025-10-07 04:32:07 -04:00:   address: '::',
+2025-10-07 04:32:07 -04:00:   port: 5000
+2025-10-07 04:32:07 -04:00: }
+2025-10-07 04:32:12 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:32:12 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:32:12 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:32:12 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:32:12 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:32:12 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:32:12 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:32:12 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:32:12 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:32:12 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:32:12 -04:00:   errno: -98,
+2025-10-07 04:32:12 -04:00:   syscall: 'listen',
+2025-10-07 04:32:12 -04:00:   address: '::',
+2025-10-07 04:32:12 -04:00:   port: 5000
+2025-10-07 04:32:12 -04:00: }
+2025-10-07 04:32:17 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:32:17 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:32:17 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:32:17 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:32:17 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:32:17 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:32:17 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:32:17 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:32:17 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:32:17 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:32:17 -04:00:   errno: -98,
+2025-10-07 04:32:17 -04:00:   syscall: 'listen',
+2025-10-07 04:32:17 -04:00:   address: '::',
+2025-10-07 04:32:17 -04:00:   port: 5000
+2025-10-07 04:32:17 -04:00: }
+2025-10-07 04:32:22 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:32:22 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:32:22 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:32:22 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:32:22 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:32:22 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:32:22 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:32:22 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:32:22 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:32:22 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:32:22 -04:00:   errno: -98,
+2025-10-07 04:32:22 -04:00:   syscall: 'listen',
+2025-10-07 04:32:22 -04:00:   address: '::',
+2025-10-07 04:32:22 -04:00:   port: 5000
+2025-10-07 04:32:22 -04:00: }
+2025-10-07 04:32:28 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:32:28 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:32:28 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:32:28 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:32:28 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:32:28 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:32:28 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:32:28 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:32:28 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:32:28 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:32:28 -04:00:   errno: -98,
+2025-10-07 04:32:28 -04:00:   syscall: 'listen',
+2025-10-07 04:32:28 -04:00:   address: '::',
+2025-10-07 04:32:28 -04:00:   port: 5000
+2025-10-07 04:32:28 -04:00: }
+2025-10-07 04:32:33 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:32:33 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:32:33 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:32:33 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:32:33 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:32:33 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:32:33 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:32:33 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:32:33 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:32:33 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:32:33 -04:00:   errno: -98,
+2025-10-07 04:32:33 -04:00:   syscall: 'listen',
+2025-10-07 04:32:33 -04:00:   address: '::',
+2025-10-07 04:32:33 -04:00:   port: 5000
+2025-10-07 04:32:33 -04:00: }
+2025-10-07 04:32:38 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:32:38 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:32:38 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:32:38 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:32:38 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:32:38 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:32:38 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:32:38 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:32:38 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:32:38 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:32:38 -04:00:   errno: -98,
+2025-10-07 04:32:38 -04:00:   syscall: 'listen',
+2025-10-07 04:32:38 -04:00:   address: '::',
+2025-10-07 04:32:38 -04:00:   port: 5000
+2025-10-07 04:32:38 -04:00: }
+2025-10-07 04:32:44 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:32:44 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:32:44 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:32:44 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:32:44 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:32:44 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:32:44 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:32:44 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:32:44 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:32:44 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:32:44 -04:00:   errno: -98,
+2025-10-07 04:32:44 -04:00:   syscall: 'listen',
+2025-10-07 04:32:44 -04:00:   address: '::',
+2025-10-07 04:32:44 -04:00:   port: 5000
+2025-10-07 04:32:44 -04:00: }
+2025-10-07 04:32:49 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:32:49 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:32:49 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:32:49 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:32:49 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:32:49 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:32:49 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:32:49 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:32:49 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:32:49 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:32:49 -04:00:   errno: -98,
+2025-10-07 04:32:49 -04:00:   syscall: 'listen',
+2025-10-07 04:32:49 -04:00:   address: '::',
+2025-10-07 04:32:49 -04:00:   port: 5000
+2025-10-07 04:32:49 -04:00: }
+2025-10-07 04:32:54 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:32:54 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:32:54 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:32:54 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:32:54 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:32:54 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:32:54 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:32:54 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:32:54 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:32:54 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:32:54 -04:00:   errno: -98,
+2025-10-07 04:32:54 -04:00:   syscall: 'listen',
+2025-10-07 04:32:54 -04:00:   address: '::',
+2025-10-07 04:32:54 -04:00:   port: 5000
+2025-10-07 04:32:54 -04:00: }
+2025-10-07 04:32:59 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:32:59 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:32:59 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:32:59 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:32:59 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:32:59 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:32:59 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:32:59 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:32:59 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:32:59 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:32:59 -04:00:   errno: -98,
+2025-10-07 04:32:59 -04:00:   syscall: 'listen',
+2025-10-07 04:32:59 -04:00:   address: '::',
+2025-10-07 04:32:59 -04:00:   port: 5000
+2025-10-07 04:32:59 -04:00: }
+2025-10-07 04:33:04 -04:00: Error: listen EADDRINUSE: address already in use :::5000
+2025-10-07 04:33:04 -04:00:     at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+2025-10-07 04:33:04 -04:00:     at listenInCluster (node:net:1965:12)
+2025-10-07 04:33:04 -04:00:     at Server.listen (node:net:2067:7)
+2025-10-07 04:33:04 -04:00:     at Function.listen (/opt/dashboard/backend/node_modules/express/lib/application.js:635:24)
+2025-10-07 04:33:04 -04:00:     at startServer (file:///opt/dashboard/backend/src/index.ts:153:9)
+2025-10-07 04:33:04 -04:00:     at file:///opt/dashboard/backend/src/index.ts:184:1
+2025-10-07 04:33:04 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:33:04 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24) {
+2025-10-07 04:33:04 -04:00:   code: 'EADDRINUSE',
+2025-10-07 04:33:04 -04:00:   errno: -98,
+2025-10-07 04:33:04 -04:00:   syscall: 'listen',
+2025-10-07 04:33:04 -04:00:   address: '::',
+2025-10-07 04:33:04 -04:00:   port: 5000
+2025-10-07 04:33:04 -04:00: }

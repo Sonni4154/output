@@ -1,0 +1,4 @@
+2025-10-07 04:01:12 -04:00: Error: DATABASE_URL environment variable is required
+2025-10-07 04:01:12 -04:00:     at file:///opt/dashboard/backend/src/db/index.ts:9:9
+2025-10-07 04:01:12 -04:00:     at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+2025-10-07 04:01:12 -04:00:     at ModuleLoader.import (node:internal/modules/esm/loader:606:24)

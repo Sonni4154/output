@@ -1,0 +1,73 @@
+{
+  "name": "marin-pest-control-backend",
+  "version": "2.0.0",
+  "description": "QuickBooks Backend API for Marin Pest Control Dashboard",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "dev:with-services": "node start-dev.js --with-services",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "start:token-refresh": "node dist/services/tokenRefresher.js",
+    "start:sync": "node dist/services/syncService.js",
+    "pm2:start": "pm2 start ecosystem.config.js",
+    "pm2:stop": "pm2 stop ecosystem.config.js",
+    "pm2:restart": "pm2 restart ecosystem.config.js",
+    "pm2:delete": "pm2 delete ecosystem.config.js",
+    "pm2:status": "pm2 status",
+    "pm2:logs": "pm2 logs",
+    "check": "tsc --noEmit",
+    "lint": "eslint . --ext ts --report-unused-disable-directives --max-warnings 0",
+    "test:webhook": "curl -X POST http://localhost:5000/api/webhook/quickbooks -H 'Content-Type: application/json' -d '{\"eventNotifications\":[{\"dataChangeEvent\":{\"entities\":[{\"name\":\"Customer\",\"id\":\"1\",\"operation\":\"Update\"}]}}]}'",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio",
+    "db:check": "drizzle-kit check"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "helmet": "^8.1.0",
+    "dotenv": "^17.2.3",
+    "axios": "^1.12.2",
+    "jsonwebtoken": "^9.0.2",
+    "jwks-client": "^2.1.0",
+    "drizzle-orm": "^0.44.6",
+    "@neondatabase/serverless": "^0.10.3",
+    "postgres": "^3.4.7",
+    "node-cron": "^4.2.1",
+    "winston": "^3.18.3",
+    "compression": "^1.8.1",
+    "express-rate-limit": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/express": "^5.0.0",
+    "@types/cors": "^2.8.17",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/compression": "^1.7.5",
+    "typescript": "^5.7.2",
+    "tsx": "^4.19.2",
+    "drizzle-kit": "^0.29.0",
+    "eslint": "^9.17.0",
+    "@typescript-eslint/eslint-plugin": "^8.18.1",
+    "@typescript-eslint/parser": "^8.18.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "quickbooks",
+    "api",
+    "backend",
+    "marin",
+    "pest-control",
+    "drizzle",
+    "neon",
+    "express"
+  ],
+  "author": "Spencer Reiser — Marin Pest Control",
+  "license": "MIT"
+}

@@ -1,0 +1,326 @@
+# Marin Pest Control Dashboard - Changes Log
+
+## Version 2.0.0 - Complete Backend Restructuring
+**Date**: October 6, 2025  
+**Status**: ✅ Complete
+
+### 🎯 Project Overview
+Complete restructuring of the Marin Pest Control employee dashboard from a direct database connection architecture to a modern backend API with QuickBooks Online integration, Stack Auth JWT authentication, and comprehensive third-party integrations.
+
+### 🏗️ Architecture Changes
+
+#### **Before (Old Architecture)**
+- Frontend: React + Vite with direct NeonDB connections
+- Database: Direct PostgreSQL queries from frontend
+- Authentication: Basic local authentication
+- QuickBooks: No integration
+- Integrations: Limited third-party support
+
+#### **After (New Architecture)**
+- Frontend: React + Vite + TanStack Query + Axios
+- Backend: Node.js + Express.js + TypeScript + Drizzle ORM
+- Database: NeonDB PostgreSQL with structured schema
+- Authentication: Stack Auth JWT with JWKS verification
+- QuickBooks: Full OAuth 2.0 integration with webhooks
+- Integrations: OpenAI, Google AI, Mistral, HubSpot, JotForm, Jibble, Google Calendar
+
+### 📁 Directory Structure Changes
+
+#### **Frontend Restructuring**
+```
+employee-dashboard/ → frontend/
+├── client/src/
+│   ├── lib/
+│   │   ├── api.ts (NEW - Axios backend client)
+│   │   └── queryClient.ts (UPDATED - TanStack Query config)
+│   ├── hooks/
+│   │   ├── useAuth.ts (UPDATED - Stack Auth JWT)
+│   │   └── useQuickBooks.ts (NEW - QuickBooks data hooks)
+│   ├── config/
+│   │   └── env.ts (NEW - Environment configuration)
+│   └── components/
+│       └── DatabaseTest.tsx (UPDATED - Backend API testing)
+```
+
+#### **Backend Creation**
+```
+backend/ (NEW)
+├── src/
+│   ├── db/
+│   │   ├── schema.ts (NEW - Drizzle ORM schema)
+│   │   └── index.ts (NEW - Database connection)
+│   ├── services/
+│   │   ├── qboClient.ts (NEW - QuickBooks API client)
+│   │   ├── upserts.ts (NEW - Data synchronization)
+│   │   ├── tokenRefresher.ts (NEW - OAuth token management)
+│   │   ├── syncService.ts (NEW - Hourly data sync)
+│   │   └── tokenInitializer.ts (NEW - Token initialization)
+│   ├── routes/
+│   │   ├── customers.ts (NEW - Customer API endpoints)
+│   │   ├── invoices.ts (NEW - Invoice API endpoints)
+│   │   ├── estimates.ts (NEW - Estimate API endpoints)
+│   │   ├── items.ts (NEW - Item API endpoints)
+│   │   ├── sync.ts (NEW - Sync management endpoints)
+│   │   ├── tokens.ts (NEW - Token status endpoints)
+│   │   └── webhook.ts (NEW - QuickBooks webhook handler)
+│   ├── middleware/
+│   │   └── auth.ts (NEW - Stack Auth JWT verification)
+│   ├── utils/
+│   │   └── logger.ts (NEW - Winston logging)
+│   └── index.ts (NEW - Main Express server)
+├── ecosystem.config.js (NEW - PM2 configuration)
+├── package.json (NEW - Backend dependencies)
+└── tsconfig.json (NEW - TypeScript configuration)
+```
+
+### 🔧 Technical Changes
+
+#### **Frontend Updates**
+1. **Package.json Updates**
+   - Added `axios: ^1.12.2` for backend communication
+   - Updated `date-fns: ^3.6.0` → `^4.1.0`
+   - Updated `lucide-react: ^0.453.0` → `^0.468.0`
+   - Updated `@types/node: 20.16.11` → `^22.10.2`
+   - Updated `typescript: 5.6.3` → `^5.7.2`
+   - Added `lint` script
+
+2. **API Client Refactoring**
+   - Removed direct database connections
+   - Created `apiClient` with Axios instance
+   - Added JWT token handling in request interceptors
+   - Added 401 error handling with automatic logout
+   - Created API functions for all QuickBooks entities
+
+3. **Authentication Updates**
+   - Integrated Stack Auth JWT verification
+   - Added token storage in localStorage
+   - Created auth utilities for token management
+   - Added mock authentication for development
+
+4. **Query Client Configuration**
+   - Configured TanStack Query for backend integration
+   - Set up query invalidation helpers
+   - Added prefetching capabilities
+   - Optimized caching and refetching strategies
+
+#### **Backend Implementation**
+1. **Database Schema (Drizzle ORM)**
+   - Created `quickbooks` schema with tables:
+     - `tokens` - OAuth token management
+     - `customers` - Customer data with indexes
+     - `items` - Product/service items
+     - `invoices` - Invoice data with line items
+     - `estimates` - Estimate data with line items
+     - `invoice_line_items` - Invoice line item details
+     - `estimate_line_items` - Estimate line item details
+   - Added proper relations and indexes
+   - Used `bigint` for QuickBooks IDs
+   - Added `last_updated` timestamps for sync tracking
+
+2. **QuickBooks Integration**
+   - OAuth 2.0 client with token refresh automation
+   - Webhook handler with immediate 200 OK response
+   - Asynchronous event processing
+   - Data synchronization services
+   - Token management and validation
+
+3. **API Routes**
+   - RESTful endpoints for all QuickBooks entities
+   - Pagination support
+   - Search and filtering capabilities
+   - Statistics and analytics endpoints
+   - Health check endpoints
+
+4. **Security & Middleware**
+   - Stack Auth JWT verification with JWKS
+   - Rate limiting with express-rate-limit
+   - CORS configuration
+   - Helmet security headers
+   - Request logging and error handling
+
+5. **Background Services**
+   - Token refresh service (every 50 minutes)
+   - Hourly data synchronization
+   - PM2 process management
+   - Comprehensive logging with Winston
+
+### 🔗 Integration Additions
+
+#### **LLM APIs**
+- OpenAI API integration
+- Google AI API integration
+- Mistral API integration
+
+#### **Dashboard Integrations**
+- JotForm API integration
+- Jibble API integration
+- HubSpot CRM integration
+
+#### **Google Services**
+- Google Calendar integration (8 calendars)
+- Google OAuth 2.0 client
+- Calendar-specific configurations
+
+### 🚀 Deployment & Operations
+
+#### **Development**
+- Concurrent development servers
+- Hot reloading for both frontend and backend
+- Development environment variables
+- Mock data and authentication bypass
+
+#### **Production**
+- PM2 ecosystem configuration
+- Process monitoring and auto-restart
+- Log management and rotation
+- Environment-specific configurations
+
+### 🔧 Environment Variables
+
+#### **Backend Environment**
+- Database connection (NeonDB)
+- Stack Auth configuration
+- QuickBooks OAuth credentials
+- Webhook configuration
+- Server settings
+- Integration API keys
+
+#### **Frontend Environment**
+- API base URL
+- Stack Auth client configuration
+- Development flags
+
+### 📊 Performance Improvements
+- Asynchronous webhook processing
+- Optimized database queries with indexes
+- Connection pooling
+- Request/response compression
+- Caching strategies
+
+### 🛡️ Security Enhancements
+- JWT token verification with JWKS
+- Webhook signature verification
+- Rate limiting
+- CORS protection
+- Security headers
+- Input validation
+
+### 🐛 Bug Fixes
+- Fixed QuickBooks webhook delivery issues
+- Resolved TypeScript compilation errors
+- Fixed Drizzle ORM query building
+- Corrected JWT algorithm (RS256 → ES256)
+- Fixed import path issues
+
+### 📈 Monitoring & Logging
+- Structured logging with Winston
+- Request/response logging
+- Error tracking and reporting
+- Health check endpoints
+- Performance monitoring
+
+### 🔄 Data Flow
+1. **Frontend** → TanStack Query → Axios → **Backend API**
+2. **Backend** → Drizzle ORM → **NeonDB PostgreSQL**
+3. **Backend** → QuickBooks API → **QuickBooks Online**
+4. **QuickBooks** → Webhooks → **Backend** → Database sync
+
+### 🎯 QuickBooks Webhook Fix
+**Problem**: "Webhook events cannot be delivered because of Connect Exception"
+**Solution**: 
+- Immediate 200 OK response
+- Asynchronous event processing
+- Proper error handling
+- Signature verification
+- Health check endpoint
+
+### 📋 Next Steps
+1. Set up environment variables
+2. Configure QuickBooks app URLs
+3. Deploy to production server
+4. Test webhook delivery
+5. Monitor sync services
+6. Set up monitoring and alerts
+
+### 🏷️ Version History
+- **v1.0.0**: Original direct database architecture
+- **v2.0.0**: Complete backend restructuring with QuickBooks integration
+
+---
+**Last Updated**: October 6, 2025  
+**Next Review**: After production deployment[2025-10-06 20:50:52] Setting proper file permissions
+[2025-10-06 20:50:52] Checking system requirements
+[2025-10-06 20:51:18] Starting development environment
+[2025-10-06 20:51:18] Setting proper file permissions
+[2025-10-06 20:51:18] Starting backend services
+[2025-10-06 20:52:17] Setting proper file permissions
+[2025-10-06 20:52:17] Checking system requirements
+[2025-10-06 20:52:19] Starting development environment
+[2025-10-06 20:52:19] Setting proper file permissions
+[2025-10-06 20:52:19] Starting backend services
+[2025-10-06 20:56:05] Setting proper file permissions
+[2025-10-06 20:56:05] Checking system requirements
+[2025-10-06 20:56:06] Starting development environment
+[2025-10-06 20:56:06] Setting proper file permissions
+[2025-10-06 20:56:06] Starting backend services
+[2025-10-06 20:57:44] Setting proper file permissions
+[2025-10-06 20:57:44] Checking system requirements
+[2025-10-06 20:57:47] Updating dependencies
+[2025-10-06 21:00:59] Setting proper file permissions
+[2025-10-06 21:00:59] Checking system requirements
+[2025-10-06 21:01:01] Starting development environment
+[2025-10-06 21:01:01] Setting proper file permissions
+[2025-10-06 21:01:01] Starting backend services
+[2025-10-06 21:19:11] Setting proper file permissions
+[2025-10-06 21:19:11] Checking system requirements
+[2025-10-06 21:31:11] Setting proper file permissions
+[2025-10-06 21:31:11] Checking system requirements
+[2025-10-06 21:31:20] Restarting frontend services
+[2025-10-06 21:31:20] Stopping frontend services
+[2025-10-06 21:31:22] Starting frontend services
+[2025-10-07 01:09:42] Setting proper file permissions
+[2025-10-07 01:09:42] Checking system requirements
+[2025-10-07 01:10:36] Checking database connectivity
+[2025-10-07 01:10:37] Checking API health
+[2025-10-07 01:10:38] Checking webhook health
+[2025-10-07 01:10:44] Starting frontend services
+[2025-10-07 01:20:05] Setting proper file permissions
+[2025-10-07 01:20:06] Checking system requirements
+[2025-10-07 01:20:11] Running comprehensive health check
+[2025-10-07 01:20:11] Checking system requirements
+[2025-10-07 01:20:11] Setting proper file permissions
+[2025-10-07 01:20:11] Checking database connectivity
+[2025-10-07 01:20:12] Checking API health
+[2025-10-07 01:20:12] Checking webhook health
+[2025-10-07 01:20:13] Checking database connectivity
+[2025-10-07 01:20:13] Checking API health
+[2025-10-07 01:20:13] Checking webhook health
+[2025-10-07 01:20:22] Updating dependencies
+[2025-10-07 01:46:16] Setting proper file permissions
+[2025-10-07 01:46:17] Checking system requirements
+[2025-10-07 01:46:33] Restarting backend services
+[2025-10-07 01:46:33] Stopping backend services
+[2025-10-07 01:46:36] Starting backend services
+[2025-10-07 01:46:40] Setting proper file permissions
+[2025-10-07 01:46:40] Checking system requirements
+[2025-10-07 01:46:41] Restarting frontend services
+[2025-10-07 01:46:41] Stopping frontend services
+[2025-10-07 01:46:43] Starting frontend services
+[2025-10-07 01:47:09] Setting proper file permissions
+[2025-10-07 01:47:09] Checking system requirements
+[2025-10-07 01:47:14] Stopping all services
+[2025-10-07 01:47:14] Stopping backend services
+[2025-10-07 01:47:15] Stopping frontend services
+[2025-10-07 01:47:19] Restarting all services
+[2025-10-07 01:47:19] Stopping all services
+[2025-10-07 01:47:19] Stopping backend services
+[2025-10-07 01:47:20] Stopping frontend services
+[2025-10-07 01:47:23] Starting development environment
+[2025-10-07 01:47:23] Setting proper file permissions
+[2025-10-07 01:47:24] Starting backend services
+[2025-10-07 01:47:48] Setting proper file permissions
+[2025-10-07 01:47:48] Checking system requirements
+[2025-10-07 01:48:36] Starting production environment
+[2025-10-07 01:48:36] Setting proper file permissions
+[2025-10-07 01:48:36] Building applications
+[2025-10-07 01:48:36] Setting proper file permissions
